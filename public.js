@@ -1,9 +1,25 @@
-import { 
-    OBJECTS,
-    KOSARELEMEI,
-} from "./datas.js";
+const OBJECTS =  [
+    {
+        id: 1,
+        nev: "Gamer billentyűzet", 
+        kategoria: "billentyűzet",
+        ar: 16000,
+        eleres: "kepek/keyboard1.png",
+    },
+    {
+        id: 2,
+        nev: "Félbillentyűzet", 
+        kategoria: "billentyűzet", 
+        ar: 10000,
+        eleres: "kepek/keyboard2.png",
+    },
+]
 
-$(function(){
+const KOSARELEMEI =  [
+
+];
+
+/* $(function(){
     
     kever(OBJECTS);
     const ARTICLE = $("article");
@@ -15,7 +31,7 @@ $(function(){
     vissza(ARTICLE);
     kosarba();
     kosar(ARTICLE);
-})
+}) */
 
 function megjelenit(mit, hol){
     let megj = `<div class="container mt-3 row">`;

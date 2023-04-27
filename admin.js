@@ -1,14 +1,10 @@
-import {
-    OBJECTS
-} from "./datas.js";
-
-$(function(){
+/* $(function(){
     if ((!localStorage.getItem("products")) || (localStorage.getItem("products") == "[]") || (localStorage.getItem("products") == null)) {
         localStorage.setItem("products", convertJSON(OBJECTS));
     }
 
     main();
-})
+}) */
 
 let priceDiff;
 let notNeededKeys = ["eleres"];
